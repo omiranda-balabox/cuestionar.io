@@ -6,8 +6,8 @@ import Menu from './Menu';
 const App = () => (
   <BrowserRouter>
     <Menu />
-    <div>
-    <Route exact path='/' component={Index} />
+    <div className="margen">
+      <Route exact path='/' component={Index} />
     </div>
   </BrowserRouter>
 );

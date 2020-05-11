@@ -19,3 +19,12 @@
   .Navbar__brand-logo {
     margin-right: 0.5rem;
   }
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+
+.Navbar-contianer {
+  flex-direction: column;
+}
