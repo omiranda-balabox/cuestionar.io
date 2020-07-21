@@ -16,9 +16,14 @@ body {
 }
 
 .index-title {
-  flex: 1;
+  font-size: large;
+  align-self: center;
 }
 
+.body {
+  display: flex;
+  align-content: center;
+}
 
 .m_left {
   margin-left: 20px;

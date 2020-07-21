@@ -3,10 +3,8 @@ import { connect } from 'react-redux';
 
 import * as userActions from '../dataManager/user/userActions';
 
-// import Spinner from './general/Spinner';
-// import Fatal from './general/Fatal';
 
-class Index extends Component {
+class Login extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -46,8 +44,4 @@ class Index extends Component {
     }
 }
 
-// const mapStateToProps = ({genesReducer}) => genesReducer;
-
-// export default connect(mapStateToProps, genesActions)(Index);
-
-export default connect(null, userActions)(Index);
+export default connect(null, userActions)(Login);
