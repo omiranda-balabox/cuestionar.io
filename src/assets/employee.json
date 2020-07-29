@@ -1,0 +1,28 @@
+[{
+    "identificador" : "1a2s5d",
+    "nombre" : "Oscar Manuel",
+    "unidadDeNegocio" : "ventas",
+    "departamento" : "ventas",
+    "subdepartamento" : "ventas",
+    "nivelDePuesto" : "gerencial",
+    "tipoEmpleado" : "sindicato",
+    "tipoContrato" : "anual",
+    "fechaNacimiento" : "02-03-1980",
+    "fechaIngreso" : "01-02-2000",
+    "sexo" : "masculino",
+    "escolaridad" : "licenciatura"
+},
+{
+    "identificador" : "1a2s5d",
+    "nombre" : "Oscar Manuel",
+    "unidadDeNegocio" : "ventas",
+    "departamento" : "ventas",
+    "subdepartamento" : "ventas",
+    "nivelDePuesto" : "gerencial",
+    "tipoEmpleado" : "sindicato",
+    "tipoContrato" : "anual",
+    "fechaNacimiento" : "02-03-1980",
+    "fechaIngreso" : "01-02-2000",
+    "sexo" : "masculino",
+    "escolaridad" : "licenciatura"
+}]

@@ -1,0 +1,1 @@
+export const SAVE_SESSION = 'user_save_session';

@@ -1,5 +1,6 @@
 import { sendHttpRequest }  from '../request';
 
+import { SAVE_SESSION } from './userTypes';
 
 // Funcion para validar las credenciales (Log in)
 export const validateCredentials = (user) => (dispatch) => {
@@ -13,17 +14,23 @@ export const validateCredentials = (user) => (dispatch) => {
     };
 
     // Debug
-    console.log(requestData);
+    // console.log(requestData);
     // Aquí se validan los datos de la 
     // validate(requestData);
 
-    // Se hace la petición 
-    /* sendHttpRequest(
+    // Se hace la petición
+
+    sendHttpRequest(
         'POST', 
         'http://balabox-demos.com/zoul/zadmin/app/mods/mods',
         requestData
         ).then((response) => {
             console.log(response);
-        });
-    */
+            // Validacion del rol del usuario
+            dispatch({
+                type: SAVE_SESSION,
+                payload: '/companyList'
+            })
+        }
+    );
 }

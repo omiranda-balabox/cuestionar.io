@@ -1,5 +1,6 @@
 .margen {
-  margin: 100px;
+  align-items: center;
+  justify-content: center;
 }
 
 body {

@@ -1,5 +1,11 @@
-export const sendHttpRequest = (method, url, data) => {
-    return fetch(url,{
+// Aqui se valida el status
+import { mock } from './mock';
+
+const baseUrl = 'http://localhost:8080/rest/service/'
+
+// Real request
+/* const sendHttpRequest = (method, url, data) => {
+    return fetch( baseUrl + url,{
         method: method,
         body: JSON.stringify(data),
         headers: data ? { 'Content-Type': 'application/json' } : {}
@@ -13,5 +19,9 @@ export const sendHttpRequest = (method, url, data) => {
         }
         return response.json();
     });
-};
+}; */
 
+// Debug request
+export const sendHttpRequest = async (method, url, data) => {
+    return await mock(true, 1000);
+};

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import * as companyActions from '../../dataManager/company/companyActions';
 
+
 class EmployeeEdit extends Component {
     constructor(props){
         super(props);
@@ -100,4 +101,4 @@ class EmployeeEdit extends Component {
     }
 }
 
-export default connect(null, companyActions)(CompanyEdit);
+export default connect(null, companyActions)(EmployeeEdit);
